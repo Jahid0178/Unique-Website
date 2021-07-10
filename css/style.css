@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 140px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -90,4 +90,74 @@ nav .main-nav li a:hover {
     margin-top: 10px;
     padding: 10px 50px;
     border: 1px solid #fff;
+    transition: 0.5s;
 }
+
+.hero-text .main-btn:hover {
+    background-color: #fff;
+    color: #DF0031;
+}
+
+/*-------- About section start here --------*/
+
+.about-sec {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.about-sec .about-title {
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about-container .about-content {
+    width: 60%;
+}
+
+.about-container .about-content h6 {
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.about-container .about-content  p {
+    color: #afafaf;
+}
+
+.about-container .about-content span {
+    font-weight: 600;
+}
+
+.about-container .about-content .about-btn {
+    margin-top: 30px;
+    padding: 10px 40px;
+    color: #DF0031;
+    border: 2px solid #DF0031;
+    transition: 0.5s;
+}
+
+.about-container .about-content .about-btn:hover {
+    color: #fff;
+    background-color: #DF0031;
+}
+
+.about-container .about-img-sec {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-container .about-img-sec img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+/*-------- About section end here --------*/
