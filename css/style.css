@@ -209,6 +209,10 @@ nav .main-nav li a:hover {
     font-size: 20px;
 }
 
+.service-details .service-text {
+    color: #000;
+}
+
 /*-------- Service section end here --------*/
 
 /*-------- Portfolio section start here --------*/
