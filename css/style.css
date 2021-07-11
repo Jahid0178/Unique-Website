@@ -128,7 +128,7 @@ nav .main-nav li a:hover {
     font-weight: 700;
 }
 
-.about-container .about-content  p {
+.about-container .about-content p {
     color: #afafaf;
 }
 
@@ -271,3 +271,119 @@ nav .main-nav li a:hover {
 }
 
 /*-------- Client section end here --------*/
+
+/*-------- Contact section start here --------*/
+
+.contact-sec {
+    width: 100%;
+    height: 100vh;
+    background-color: #232323;
+}
+
+.contact-sec-header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-sec-header h2 {
+    color: #fff;
+}
+
+.contact-info {
+    width: 100%;
+    height: calc(100vh - 20vh);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info .address-sec {
+    width: 40%;
+    padding-left: 80px;
+}
+
+.contact-info .address-sec span {
+    color: #808080;
+    padding: 8px 0;
+    display: inline-block;
+}
+
+.contact-info .address-sec,
+p {
+    color: #fff;
+}
+
+.social-icon {
+    list-style: none;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-icon li a i.fa {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.social-icon li a i.fa-twitter:hover {
+    color: #00acee;
+}
+
+.social-icon li a i.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.social-icon li a i.fa-pinterest-p:hover {
+    color: #E60023;
+}
+
+.social-icon li a i.fa-google-plus:hover {
+    color: #db4a39;
+}
+
+.contact-info .message-info {
+    width: 60%;
+}
+
+.message-info .form-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.message-info .form-section input,
+textarea {
+    width: 80%;
+    padding: 8px;
+    margin: 5px;
+    color: #d1d1d1;
+    background: transparent;
+    border: 1px solid #afafaf;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.message-info .message-btn {
+    width: 20%;
+    margin: 15px 0 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #DF0031;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #DF0031;
+}
+
+.message-info .message-btn:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+/*-------- Contact section end here --------*/
