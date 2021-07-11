@@ -1,0 +1,168 @@
+@media screen and (max-width: 1127px) {
+    nav {
+        padding: 0 50px 0 50px;
+    }
+    .about-sec .about-title {
+        padding: 30px 0;
+    }
+    .about-container {
+        margin-top: 0;
+        padding: 0 30px 0 30px;
+    }
+    .about-container .about-img-sec {
+        justify-content: center;
+    }
+    .about-container .about-content {
+        padding: 40px 0;
+    }
+
+    /* Portfolio section start */
+
+    .portfolio-sec h2 {
+        padding: 50px 0;
+    }
+
+    /* Portfolio section end */
+
+    /* Contact section start */
+
+    .message-info .message-btn {
+        width: 30%;
+    }
+
+    /* Contact section end */
+
+}
+
+@media screen and (max-width: 1040px) {
+    nav .main-nav li {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hero-content .hero-text {
+        width: 50%;
+    }
+
+    .hero-content .hero-img {
+        width: 50%;
+    }
+
+    .service-sec h2 {
+        font-size: 30px;
+        padding: 20px 0 0 0;
+    }
+
+    .box-body .icon {
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    nav .main-nav li {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hero-content {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hero-content .hero-text {
+        width: 100%;
+        padding: 50px 30px;
+        text-align: center;
+    }
+
+    .hero-content .hero-text p {
+        text-align: justify;
+    }
+
+    /* About section start */
+
+    .about-sec .about-title {
+        padding: 10px 0;
+    }
+
+    .about-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-container .about-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-container .about-content .about-btn {
+        margin-top: 10px;
+    }
+
+    /* About section end */
+
+    /* Portfolio section start here */
+
+    .portfolio-sec {
+        height: 80vh;
+    }
+
+    .protfolio-header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .protfolio-header h2 {
+        padding: 0;
+    }
+
+    /* Portfolio section end here */
+
+    /* Contact section start here */
+
+    .contact-sec-header {
+        height: 10vh;
+    }
+
+    .contact-info {
+        justify-content: center;
+        flex-direction: column;
+        height: calc(100vh - 10vh);
+    }
+
+    .contact-info .address-sec {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 100px;
+    }
+
+    .contact-info .message-info {
+        width: 100%;
+    }
+
+    .message-info .form-section {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Contact section end here */
+
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        justify-content: center;
+    }
+
+    .service-sec {
+        height: auto;
+    }
+}
