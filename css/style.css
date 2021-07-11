@@ -276,7 +276,7 @@ nav .main-nav li a:hover {
 
 .contact-sec {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: #232323;
 }
 
@@ -387,3 +387,26 @@ textarea {
 }
 
 /*-------- Contact section end here --------*/
+
+/*-------- Footer section start here --------*/
+
+footer {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+    border-top: 1px solid #BFBFBF;
+}
+
+footer .footer-link {
+    color: #808080;
+    text-decoration: none;
+}
+
+footer .footer-link:hover {
+    color: #d1d1d1;
+    text-decoration: underline;
+}
+
+/*-------- Footer section end here --------*/
